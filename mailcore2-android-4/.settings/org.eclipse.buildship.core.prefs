@@ -1,8 +1,8 @@
-arguments=--init-script C\:\\Users\\micro\\AppData\\Roaming\\Code\\User\\globalStorage\\redhat.java\\1.26.0\\config_win\\org.eclipse.osgi\\56\\0\\.cp\\gradle\\init\\init.gradle --init-script C\:\\Users\\micro\\AppData\\Roaming\\Code\\User\\globalStorage\\redhat.java\\1.26.0\\config_win\\org.eclipse.osgi\\56\\0\\.cp\\gradle\\protobuf\\init.gradle
+arguments=--init-script C\:\\Users\\micro\\AppData\\Roaming\\Code\\User\\globalStorage\\redhat.java\\1.30.0\\config_win\\org.eclipse.osgi\\56\\0\\.cp\\gradle\\init\\init.gradle --init-script C\:\\Users\\micro\\AppData\\Roaming\\Code\\User\\globalStorage\\redhat.java\\1.30.0\\config_win\\org.eclipse.osgi\\56\\0\\.cp\\gradle\\protobuf\\init.gradle
 auto.sync=true
 build.scans.enabled=false
 connection.gradle.distribution=GRADLE_DISTRIBUTION(LOCAL_INSTALLATION(C\:\\Users\\micro\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\gradle\\latest))
-connection.project.dir=../../../android
+connection.project.dir=../android
 eclipse.preferences.version=1
 gradle.user.home=
 java.home=C\:/Users/micro/.gradle/jdks/eclipse_adoptium-17-amd64-windows/jdk-17.0.9+9

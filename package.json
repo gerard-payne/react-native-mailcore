@@ -23,7 +23,7 @@
   "author": "software@gerard-payne.net",
   "license": "ISC",
   "peerDependencies": {
-    "react-native": ">=0.47"
+    "react-native": ">=0.74.1"
   },
   "rnpm": {
     "android": {
@@ -35,6 +35,6 @@
   },
   "homepage": "https://github.com/gerard-payne/react-native-mailcore#readme",
   "devDependencies": {
-    "semantic-release": "^17.1.1"
+    "semantic-release": "^23.1.1"
   }
 }
