@@ -18,13 +18,11 @@
     "react-native",
     "sendmail",
     "email",
-    "smtp"
+    "smtp",
+    "imap"
   ],
   "author": "software@gerard-payne.net",
   "license": "ISC",
-  "peerDependencies": {
-    "react-native": ">=0.74.1"
-  },
   "rnpm": {
     "android": {
       "sourceDir": "./android"
@@ -35,6 +33,13 @@
   },
   "homepage": "https://github.com/gerard-payne/react-native-mailcore#readme",
   "devDependencies": {
+    "@babel/core": "^7.24.5",
+    "@babel/preset-env": "^7.24.5",
+    "babel-jest": "^29.7.0",
     "semantic-release": "^23.1.1"
+  },
+  "dependencies": {
+    "global": "^4.4.0",
+    "jest": "^29.7.0"
   }
 }

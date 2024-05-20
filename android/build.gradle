@@ -33,5 +33,5 @@ android {
 
 dependencies {
     implementation("com.facebook.react:react-native:+")
-    implementation(project(":mailcore2-android-4"))
+    implementation files("../mailcore2-android-4/mailcore2-android-4.aar")
 }
