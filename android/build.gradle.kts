@@ -8,10 +8,10 @@ buildscript {
     }
 }
 
-apply plugin: "com.android.library"
+apply(plugin = "com.android.library")
 
 android {
-    namespace "com.reactlibrary"
+    namespace = "com.reactlibrary"
     compileSdkVersion(34)
     buildToolsVersion("34.0.0")
 
@@ -23,7 +23,7 @@ android {
     }
 
     lintOptions {
-        abortOnError = false
+        isAbortOnError = false
     }
 
     packagingOptions {
@@ -33,5 +33,5 @@ android {
 
 dependencies {
     implementation("com.facebook.react:react-native:+")
-    implementation files("../mailcore2-android-4/mailcore2-android-4.aar")
+    implementation(files("../mailcore2-android-4/mailcore2-android-4.aar"))
 }
