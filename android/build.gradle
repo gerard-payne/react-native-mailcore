@@ -22,10 +22,6 @@ android {
         versionName = "1.0"
     }
 
-    lintOptions {
-        isAbortOnError = false
-    }
-
     packagingOptions {
         pickFirst("META-INF/**")
     }
